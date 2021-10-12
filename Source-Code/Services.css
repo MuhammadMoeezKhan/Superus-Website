@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box ;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1280px;
+    padding:25px 40px;
+    margin:auto;
+}
+
+.navbar{
+    background-color: white ;
+    }
+    .navbar .max-width{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* --- If want to insert superus name in nav bar
+    .navbar .name a{
+    color:black;
+    font-size:30px;
+    font-weight: 450;
+    transition: color 0.3s ease;
+    font-family: 'Yaldevi', sans-serif;
+    }*/
+      
+    .navbar .name a img{
+        width:67x;
+        height:65px;
+        object-fit: cover;
+        border-radius: 18px;
+        transition: all 0.3s ease;
+    }
+    
+    .navbar .name a img:hover{
+        transform: scale(1.02);
+        }
+        
+        .navbar .pages li a:hover{
+            color:silver;
+            }
+    
+    .navbar .pages li{
+        list-style: none;
+        display: inline-block;
+        margin-left:60px;
+        font-family: 'Yaldevi', sans-serif;
+    }
+    
+    .navbar .pages li a{
+        font-size: 16px;
+        font-weight: 550;
+        color:black;
+        transition: all 0.3s ease;
+    }
+    
+    .navbar .pages li:hover{
+    transform:scale(1.07);
+    }
+    
+
+.services .card{
+        color:white;
+        background: black;
+        padding:80px 0;
+        margin:30px 0;
+    }
+    
+.services .title{
+    font-size: 66px;
+    font-weight: 1;
+    text-align: center;
+    font-family: 'Yaldevi', sans-serif;
+}
+
+.services .sub-title{
+    font-size: 24px;
+    font-weight: 550;
+    text-align: center;
+    font-family: 'Yaldevi', sans-serif;
+    margin-top: 1%;
+}
+
+
+.services .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    transition: all 0.3s ease;
+      font-family: 'Yaldevi', sans-serif;
+    }
+    
+    .services .carousel .card:hover{
+        background:silver;
+    }
+    
+    .services .carousel .card .box{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+    
+    .services .carousel .card:hover .box{
+    transform: scale(1.05);
+    }
+    
+    .services .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    }
+    
+    .services .carousel .card img{
+        height:150px;
+        width:150px;
+        object-fit:cover;
+        border-radius:50%;
+        border: 3.5px solid silver;
+    }
+    
+    .services .carousel .card:hover img{
+    border-color: black ;
+    transform: scale(1.02);
+    }
+    
+    .owl-dots{
+        text-align: center;
+        margin-top:20px;
+    }
+    
+    .owl-dot{
+        height:13px;
+        width: 13px;
+        margin: 0 5px;
+        outline: none! important;
+        border-radius: 50%;
+        border: 2px solid #45A29E !important;
+        transition: all 0.3s ease;
+    }
+    
+    .owl-dot.active{
+        width:35px;
+        border-radius: 14px;
+    }
+    
+    .owl-dot.active, .owl-dot:hover{
+        background: #45A29E !important;
+    }
+
