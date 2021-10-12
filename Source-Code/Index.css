@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@200&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    box-sizing:border-box;
+}
+
+.max-width{
+    max-width: 1280px;
+    padding:25px 40px;
+    margin:auto;
+}
+
+.navbar{
+background-color: white ;
+}
+
+.navbar .max-width{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* --- If want to insert superus name in nav bar
+.navbar .name a{
+color:black;
+font-size:30px;
+font-weight: 450;
+transition: color 0.3s ease;
+font-family: 'Yaldevi', sans-serif;
+}*/
+  
+.navbar .name a img{
+    width:67x;
+    height:65px;
+    object-fit: cover;
+    border-radius: 18px;
+    transition: all 0.3s ease;
+}
+
+.navbar .name a img:hover{
+    transform: scale(1.02);
+    }
+    
+    .navbar .pages li a:hover{
+        color:silver;
+        }
+
+.navbar .pages li{
+    list-style: none;
+    display: inline-block;
+    margin-left:60px;
+    font-family: 'Yaldevi', sans-serif;
+}
+
+.navbar .pages li a{
+    font-size: 16px;
+    font-weight: 550;
+    color:black;
+    transition: all 0.3s ease;
+}
+
+.navbar .pages li:hover{
+transform:scale(1.07);
+}
+
+
+/* Home Styling Start*/
+
+/* if want to insert sup logo in home banenr
+.home {
+width:100%;
+padding:0px;
+background: url(images/SuperusLogo.jpg) center no-repeat;
+background-image: 80%;
+}*/
+
+.home .max-width{
+max-width:1280px;
+min-height:500px;
+}
+
+.home .home-content p{
+    color:black;
+    font-size:42px;
+    font-weight: 600;
+    font-family: 'Yaldevi', sans-serif;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.home .home-content .title{
+    color:black;
+    font-size:88px;
+    font-weight: 80;
+    font-family: 'Yaldevi', sans-serif;
+    text-align: center; 
+    margin-top: 8%;
+}
